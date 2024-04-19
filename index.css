@@ -1,8 +1,9 @@
-body{
-    background-image: linear-gradient(to bottom, black,skyblue);
+body {
+    background-image: linear-gradient(to bottom, black, skyblue);
     height: 1000px;
 }
-.header{
+
+.header {
     color: white;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -11,47 +12,100 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-#quote{
+
+.anchor-element {
+    font-size: x-large;
+    color: white;
+}
+
+.anchor-element:hover {
+    color: blue;
+}
+
+#title-element {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#quote {
     width: 80px;
     margin-left: 20px;
 }
-#logoo{
+
+#logoo {
     width: 100px;
     border-radius: 40%;
     display: block;
     border: 6px solid blue;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
 }
-.image-blocks{
+
+.image-blocks {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     width: 80%;
     margin: auto;
 }
-.place-element{
+
+.place-element {
     width: 400px;
     box-shadow: 0 0 5px 2px black;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
-.place-element img{
+
+.place-element img {
     width: 400px;
     height: 270px;
     border-radius: 10px;
 }
-.form-input{
+
+.form-input {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.form-input input{
+
+.form-input input {
     width: 98%;
+    height: 50%;
+    background-image: linear-gradient(to right, grey, skyblue);
 }
-#add-btn{
+
+#add-btn {
     margin-top: 20px;
+    font-size: x-large;
+}
+
+#contact-title {
+    font-size: xx-large;
+}
+
+ul li {
+    font-size: xx-large;
+    color: white;
+}
+
+.label-element {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+#container {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+
+#Contact-us-p{
+    color: white;
+    font-size: xx-large;
 }

@@ -1,4 +1,4 @@
-$("#add-btn").on("click",function(){
+$("#add-btn").on("click", function () {
     var imgUrl = document.getElementById("input-url")
     var placeDesc = document.getElementById("input-desc")
     $(".image-blocks").append(`
@@ -11,9 +11,14 @@ $("#add-btn").on("click",function(){
 })
 
 var removebtns = document.getElementsByClassName("remove")
+console.log(removebtns);
+var content = document.getElementsByClassName("place-element")
+console.log(content);
+
+
 for (var i = 0; i < removebtns.length; i++) {
-    removebtns[i].addEventListener("click",function (e) {
-        e.target.
-            console.log(e.target)
+    removebtns[i].addEventListener("click", function (event) {
+        content[1].remove()
+        // event.target.content.remove()
     })
 }
